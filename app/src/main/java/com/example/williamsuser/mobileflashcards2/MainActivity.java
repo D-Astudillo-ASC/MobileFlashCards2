@@ -43,10 +43,12 @@ public class MainActivity extends AppCompatActivity {
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
         if (requestCode == 100) { // this 100 needs to match the 100 we used when we called startActivityForResult!
-            String updated_question = data.getExtras().getString("question");
-            String updated_answer = data.getExtras().getString("answer");
-            ((TextView) findViewById(R.id.card_question)).setText(updated_question);
-            ((TextView) findViewById(R.id.correct_answer)).setText(updated_answer);
+            if(data != null){
+                String updated_question = data.getExtras().getString("question");
+                String updated_answer = data.getExtras().getString("answer");
+                ((TextView) findViewById(R.id.card_question)).setText(updated_question);
+                ((TextView) findViewById(R.id.correct_answer)).setText(updated_answer);
+            }
         }
     }
 }
