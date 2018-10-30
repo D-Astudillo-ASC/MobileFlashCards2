@@ -5,7 +5,7 @@ Since I made a mistake by changing the colors.xml file in the previous version o
 This app is supposed to let users create flashcards and display them.
 
 ### App Walk-though
-<img src= https://github.com/D-Astudillo-ASC/MobileFlashCards2/blob/master/mobileflashcards2.gif?raw=true width=200><br>
+<img src="https://github.com/D-Astudillo-ASC/MobileFlashCards2/blob/master/mobileflashcards2.gif?raw=true" width=200><br>
 
 
 ## Required
